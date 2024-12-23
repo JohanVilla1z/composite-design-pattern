@@ -1,0 +1,10 @@
+package org.example.models;
+
+public interface IMenuComponent {
+
+    String getNombre();
+    void agregar(MenuComponent menuComponent);
+    void eliminar(MenuComponent menuComponent);
+    MenuComponent getChild(int i);
+    String toString();
+}
